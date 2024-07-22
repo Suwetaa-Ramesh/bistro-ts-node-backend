@@ -53,7 +53,7 @@ Welcome to the Bistro TS Node Backend! This TypeScript-based API is designed for
 
 ### 🍽️ Bistros
 
-- `GET /bistros` - Retrieve all bistros
+- `GET /bistros` - Retrieves all bistros
 - `POST /bistros` - Create a new bistro
 - `GET /bistros/:id` - Retrieve a single bistro by ID
 - `PUT /bistros/:id` - Update a bistro by ID
@@ -61,9 +61,9 @@ Welcome to the Bistro TS Node Backend! This TypeScript-based API is designed for
 
 ### 🧑‍💼 Employees
 
-- `GET /employees` - Retrieve all employees
+- `GET /employees` - Retrieves all employees
 - `POST /employees` - Create a new employee
-- `GET /employees/:id` - Retrieve a single employee by ID
+- `GET /employees/:id` - Retrieves a single employee by ID
 - `PUT /employees/:id` - Update an employee by ID
 - `DELETE /employees/:id` - Delete an employee by ID
 
