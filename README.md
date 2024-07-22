@@ -22,30 +22,30 @@ Welcome to the Bistro TS Node Backend! This TypeScript-based API is designed for
 
 1. **Clone the Repository**
 
-   \`\`\`bash
+   ```bash
    git clone <repository-url>
    cd bistro-ts-node-backend
-   \`\`\`
+   ```
 
 2. **Install Dependencies**
 
-   \`\`\`bash
+   ```bash
    npm install
-   \`\`\`
+   ```
 
 3. **Set Up Environment Variables**
 
-   Create a \`.env\` file in the root directory and add:
+   Create a `.env` file in the root directory and add:
 
-   \`\`\`env
+   ```env
    MONGODB_URI=<your-mongodb-uri>
-   \`\`\`
+   ```
 
 4. **Start the Server**
 
-   \`\`\`bash
+   ```bash
    npm start
-   \`\`\`
+   ```
 
    The server will be running at [http://localhost:3001](http://localhost:3001).
 
@@ -53,27 +53,27 @@ Welcome to the Bistro TS Node Backend! This TypeScript-based API is designed for
 
 ### 🍽️ Bistros
 
-- \`GET /bistros\` - Retrieve all bistros
-- \`POST /bistros\` - Create a new bistro
-- \`GET /bistros/:id\` - Retrieve a single bistro by ID
-- \`PUT /bistros/:id\` - Update a bistro by ID
-- \`DELETE /bistros/:id\` - Delete a bistro by ID
+- `GET /bistros` - Retrieve all bistros
+- `POST /bistros` - Create a new bistro
+- `GET /bistros/:id` - Retrieve a single bistro by ID
+- `PUT /bistros/:id` - Update a bistro by ID
+- `DELETE /bistros/:id` - Delete a bistro by ID
 
 ### 🧑‍💼 Employees
 
-- \`GET /employees\` - Retrieve all employees
-- \`POST /employees\` - Create a new employee
-- \`GET /employees/:id\` - Retrieve a single employee by ID
-- \`PUT /employees/:id\` - Update an employee by ID
-- \`DELETE /employees/:id\` - Delete an employee by ID
+- `GET /employees` - Retrieve all employees
+- `POST /employees` - Create a new employee
+- `GET /employees/:id` - Retrieve a single employee by ID
+- `PUT /employees/:id` - Update an employee by ID
+- `DELETE /employees/:id` - Delete an employee by ID
 
 ## 🌱 Data Seeding
 
 To seed the database with initial data, run:
 
-\`\`\`bash
+```bash
 npm run seed
-\`\`\`
+```
 
 ## 💻 Frontend
 
